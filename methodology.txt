@@ -1,0 +1,76 @@
+The methodology used for the project is divided into following parts:
+• Choice of software and API preference
+• Choice of design
+• Storage of data
+• Functionalities to be added
+• Flow Chart
+
+Choice of software and API preference
+There are various software available in the market today that can be used to make the android
+applications. For e.g., Android Studio, Visual Studio and more. But, for accomplishment for
+our project, the chosen software is Android Studio. The reason to pick it up rather than other
+software is the fact that both the backend and frontend programming can be done easily.
+
+Choice of design and user interface
+The user interface is to be made in such a way, that its easy to understand for new users and
+also the functionalities are self explanatory, quick and easy to understand by both users and
+supervisors of those complaints.
+The choice of design include, designing of the various parts:
+o Logos
+o Tables
+o Interface of different pages
+o Navigation bar
+The basis of designing in Android Studio lies on our knowledge of XML. XML helps
+in designing the different layouts. To use it, we need to add a dependency in the
+gradle file of Android Studio: design. This dependency must be the most recent
+software update, our API is running on.
+Combining basic knowledge of XML with material design can make us make several
+layouts that are not only visually appealing but also can be made complex or simple
+on the basis of our requirement.
+The design of one single layout is comprised of various parts. Those parts are
+different TextView, background, EditText, Buttons and more.
+
+Storage of Data
+The storage of data is important because we are supposed to store, the real-time data
+of the registered users and also check if the email and password entered are correct
+via authentication.
+Out of several databases available, including Android Studio’s own SQLite, which is
+a SQL database, we decided to go with Firebase. Firebase is and open source, online
+cloud that gives us various functionalities including, authentication for user
+registration and login, database, ML Toolkit and much more for storage and usage.
+The advantages of Firebase are the availability of several features that are useful to us
+and also its very own real-time database that stores and checks for user data in the real
+time if the user has the internet connection. One of the salient features of the Firebase
+real-time database is, it is a NoSQL database. And also it’s open source, so it’s
+available for free to the users who require it.
+
+Functionalities to be added
+There are many functionalities that could be added in the given time period. We were
+asked to design an application with basic functions that an app for complaint
+management would be required to do. Here, I will list all the functionalities that the
+application has and describe its significance in the app.
+i. Registration and Login of Users
+ii. Supervisors are already registered in the database and don’t have to
+register.
+iii. For Users: After login, a page will open for them to register a
+complaint. It will also have a Navigation bar that will have 4 options:
+Profile option to view the profile of the logged in user, then past
+complaints registered, help to get any help and logout option.
+iv. For supervisors: After Login, they will have two functionalities on
+dashboard, Registering a complaint as well as viewing the complaint.
+For viewing the complaint, there were several options available, like
+ListView, RecyclerView and more but we went with RecyclerView
+because its not only quick but also allows us to give sufficient space to
+each block of information on the screen as it can be seen on the next
+page.
+v. For users: After tapping registering a complaint, another screen opens
+up that allows users to input the person, on who’s behalf the complain
+was written and also, the building name, the floor number, the details
+of the complaint, the remarks and also the phone number to get in
+touch with.
+vi. After that another page opens up to see the “Review the complaint”
+page where a user can see if he needs to make any changes or the or
+the registered complaint is good as it is.
+vii. From there, there would also be option for the users to go back to the
+Dashboard or directly, Logout.
+
