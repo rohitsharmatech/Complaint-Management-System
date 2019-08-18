@@ -1,0 +1,20 @@
+Problem Statement
+
+The objective of the project was discussed in the last page. The objective of this project is
+based solely on a few issues that need to be addressed. Here, I’ll breakdown the reasons this
+project was taken up. These are more or less based on the requirements of the company
+NHPC and how this product can be of use in other platforms:
+i. As the complaint management system already that has a lot of functionality
+making it very useful for the users. The website page needs to be loaded first and
+it’s a bit of work and time consuming. Hence, there is a need to come up with an
+application that can make this process a little faster.
+ii. Another reason why this project is important is to make a product that is not only
+valuable to the NHPC company, but also can be used by other organizations at
+this level having a lot of employees.
+iii. The application should have fast backend coding to make it work fast and another
+important aspect of this project is choosing the database software. For this project,
+we are relying on Firebase Realtime NoSQL database. And the software used to
+make this app is android studio, used for both designing and coding purposes.
+iv. Keeping that in mind, the first thing that suggested was to build an app that can
+systematically store complaints of the users and the supervisors of those
+complaints can separately resolve them.
